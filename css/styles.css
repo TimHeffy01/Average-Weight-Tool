@@ -11,7 +11,8 @@ h1, h2, h3, #header {
 input {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	width: 120px;
+	width: 100px;
+	background-color: #999;
 }
 
 input[type=number] {
@@ -48,7 +49,7 @@ button:hover {
 	text-decoration: underline;
 }
 
-#output > h2 {
+#output>h2 {
 	text-decoration: none;
 }
 
@@ -63,6 +64,6 @@ button:hover {
 	padding: 20px;
 }
 
-#buttons {
+#buttons, #wrapper {
 	text-align: center;
 }
